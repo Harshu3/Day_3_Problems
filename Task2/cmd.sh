@@ -1,3 +1,5 @@
+#Execute "hello" and "ls" commands and check its execution status in command prompt
+
 read -p "Enter command " cmd;
 $cmd;
 if [ $? == 0 ]
