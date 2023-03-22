@@ -1,3 +1,5 @@
+#Check if a folder exists or not. If not, create it.
+
 read -p "Enter file name " file;
 if [ -f $file ]
 then
