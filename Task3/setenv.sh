@@ -1,3 +1,5 @@
+#Check whether environment variable usersecret assigned any value or not
+
 value=`env|grep -i USERSECRET`;
 
 if [ -z "$value" ]
